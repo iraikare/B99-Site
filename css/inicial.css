@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Brawler', serif;  
+}
+body{
+    background-color: #102A3B;
+}
+header{
+    position: relative;
+    background-color: #102A3B;
+    /* background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    min-height: 60em;
+    box-sizing: border-box;
+    /* display: flex;
+    justify-content: space-between; */
+    /* padding: 5em; */
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5em 8em 0 8em;
+}
+header figure img{
+    width: 98.9vw;
+}
+h1{
+    padding-left: 0.6em;
+    font-size: 2.5em;
+}
+header nav ul{
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    margin-top: 1.5em;
+    font-size: 2.5em;
+}
+header nav ul li a{
+    font-family: 'Bangers', cursive;
+    color: white;
+    text-decoration: none;
+    margin: 0 0.6em 0 0.6em;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FCDC3D;
+}
+.sinopse{
+    background-color: #115372; 
+    min-height: 40em;
+    margin-top: 8em;
+}
+.sinopse p{
+    margin: 0 auto;
+    width: 1296px;
+    font-size: 1.5em;
+    color: white;
+}
+h2{
+    padding: 1.5em;
+    text-align: center;
+    font-size: 4em;
+    color: #FCDC3D;
+    font-family: 'Fjalla One', sans-serif;
+}
+.generos img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 300px;
+    border: 10px solid #FCDC3D;
+    margin-bottom: 1em;
+}
+.gen{
+    margin: 0 auto;
+    width: 1296px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.gen div{
+    text-align: center;
+    margin: 0 1.5em 0 1.5em;
+}
+.gen h3{
+    font-size: 2.5em;
+}
+.generos{
+    margin-top: 22em;
+    background-color: #115372;
+    height: 50em;
+}
+.criadores{
+    text-align: center;
+    margin-top: 3em;
+}
+.posicri{
+    margin: 0 auto;
+    position: relative;
+    width: 1296px;
+}
+.seta{
+    position: absolute;
+}
+.cri1{
+    left: 1%;
+    top: 70%;
+}
+.cri2{
+    top: 70%;
+    right: -3%;
+}
+h3{
+    font-family: 'Bangers', cursive;
+}
+.criadores h3{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+}
+#dan{
+    top: 133%;
+    left: 20%;
+}
+#michael{
+    top: 133%;
+    right: 15%;
+}
+#cria img{
+    width: 1296px;
+}
+footer{
+    background-color: #768891;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 8em 2em 8em;
+}
+footer ul, footer ol{
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+}
+footer ol{
+    padding-left: 0;
+}
+footer ul{
+    width: 150px;
+    margin-left: 420px;
+}
+footer ol li{
+    margin: 0 0.5em 0 0.5em;
+}
+footer p{
+    font-size: 1.5em;
+}
+footer div{
+    text-align: right;
+}
+#menuu ol{
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 3em 0 128px 0;
+    font-size: 2em;
+    justify-content: center;
+}
+#menuu ol li a{
+    font-size: 1.5em;
+    font-family: 'Bangers', cursive;
+    color: white;
+    text-decoration: none;
+    margin: 0 2em 0 2em;
+    border-bottom: 2px solid #FCDC3D;
+}
+#menuu ol li a:hover{
+    color: lightgray;
+}
+
+#carouselExampleAutoplaying img{
+    border-bottom: 10px solid #FCDC3D;
+    border-top: 10px solid #FCDC3D;
+}
+.container{
+    padding-top: 5em;
+    position: relative;
+}
+.carousel-control-next-icon {
+    background-image: url(../img/inicio/iconsetad.png);
+    position: absolute;
+    right: -5em;
+    width: 4em;
+    height: 4em;
+}
+.carousel-control-prev-icon {
+    background-image: url(../img/inicio/iconsetae.png);
+    position: absolute;
+    left: -5em;
+    width: 4em;
+    height: 4em;
+}
+
+#sanduiche img{
+    width: 5em;
+}
+#sanduiche{
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 105px;
+    right: 70px;
+}
+li#x{
+    position: absolute;
+    visibility: hidden;
+}
+nav#migalha{
+    font-size: 1.5em;
+    /* position: absolute; */
+    /* top: 41em;
+    left: 128px; */
+    margin-left: 128px;
+}
+nav#migalha ol li a{
+    text-decoration: none;
+    color: white;
+}
+nav#migalha ol li{
+    margin-right: 1em;
+}
+nav#migalha ol li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FCDC3D;
+}
+nav#migalha img{
+    width: 1.5em;
+}
+nav#migalha ol{
+    list-style-type: none;
+    display: flex;
+}
+div#esmaecer{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    visibility: hidden;
+}
+
+@media screen and (max-device-width:480px){ 
+
+    h1 img{
+        width: 400px;
+    }
+    header div{
+        padding: 5em 4em 0 4em;
+    }
+    #sanduiche {
+        visibility: visible;
+    }
+    nav#migalha ol{
+        margin-right: 4em;
+        padding-left: 0;
+        font-size: 1.2em;
+    }
+    #menu{
+        z-index: 5;
+        font-size: 1.5em;
+        padding: 3em 1em 0 0 ;
+        width: 18em;
+        text-align: right;
+        visibility: hidden;
+        background-color: #115372;
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        right: 0;
+    }
+  .sinopse p{
+    width: 30em;
+    padding: 0 3em;
+    font-size: 2em;
+  }
+    #menu ul{
+        display: inline;
+    }
+    #menu li#x{
+       right: 1em;
+    }
+    #menu li{
+        margin: 1em 0 1em 0;
+    }
+    .sinopse{
+        height: 75em;
+    }
+    figure#cria img{
+        width: 50em;
+    }
+    .posicri{
+        width: 50em;
+    }
+    .seta img{
+        width: 120px;
+    }
+    .criadores h3{
+        font-size: 3em;
+    }
+    /* .gen{
+        display: inline;
+    } */
+    .generos{
+        height: 42em;
+    }
+    .generos img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 200px;
+    }
+    #menuu ol li a{
+        font-size: 1.2em;
+        margin: 0 1em 0 1em;
+    }
+    footer nav ul{
+        padding-left: 0;
+    }
+    footer p{
+        font-size: 2em;
+    }
+    header{
+        min-height: 40em;
+    }
+  .gen{
+    width: 50em;
+    margin: 0 auto;
+  }
+  .gen h3{
+    font-size: 3em;
+  }
+}  

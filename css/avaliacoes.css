@@ -1,0 +1,95 @@
+section .avaliacoes{
+    display: flex;
+    color: white;
+    margin: 5em auto 3em auto;
+    justify-content: space-between;
+    width: 1296px;
+    align-items: center;
+    border-bottom: 7px solid #FCDC3D;
+    border-top: 7px solid #FCDC3D;
+    padding: 2.5em 0 2.5em 0;
+}
+.avaliacoes .foto img{
+    width: 300px;
+    border-radius: 300px;
+    border: 10px solid #115372;
+}
+.fe{
+    width: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avaliacoes p{
+    font-size: 1.5em;
+    width: 17em;
+}
+figure{
+    margin-bottom: 0;
+}
+section .primeira{
+    margin-top: 0px;
+}
+
+form{
+    background-color: #115372;
+    margin: 0 auto 5em auto;
+    border-radius: 40px;
+    padding: 2em;
+    font-size: 2em;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 5em;
+    width: 1296px;
+}
+fieldset{
+    width: 25em;
+    margin: 0 auto;
+}
+form div{
+    padding: 0.5em;
+}
+form input{
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 20em;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]{
+    font-family: 'Bangers', cursive;
+    background-color: white;
+    color: #115372;
+    margin: 1em auto;
+    border: none;
+    width: 5em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+textarea{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 23.5em;
+    color: white;
+    height: 4em;
+}
+form label{
+    font-size: 1.2em;
+    font-family: 'Bangers', cursive;
+}
+form .avaes{
+    display: flex;
+    align-items: center;
+}
+form .avaes img{
+    width: 1em;
+}
+#estrelinhas{
+    padding-top: 5px;
+}
+.botao{
+    text-align: center;
+}

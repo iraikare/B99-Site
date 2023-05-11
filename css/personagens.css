@@ -1,0 +1,31 @@
+section div img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 10px solid #FCDC3D;
+    border-top: 10px solid #FCDC3D;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 8em;
+}
+section div{
+    margin: 0em 1em 0em 1em;
+}
+.meio{
+    margin: 3em 1em 3em 1em;
+}
+section a{
+    color: white;
+    text-decoration: none;
+}
+section a:hover{
+    /* text-decoration: underline;
+    text-decoration-color: #FCDC3D; */
+    color: #FCDC3D;
+}

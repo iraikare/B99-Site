@@ -1,0 +1,43 @@
+.temp{
+    padding: 0em 0.5em 0 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 7px solid #FCDC3D;
+    border-bottom: 7px solid #FCDC3D;
+    width: 1296px;
+    margin: 5em auto 5em auto;
+}
+/* section div img{
+    width: 200px;
+} */
+.primeira{
+    margin-top: 0;
+}
+.ultima{
+    margin-bottom: 128px;
+}
+h3{
+    font-size: 20em;
+}
+.temp img{
+    width: 13em;
+    border: 10px solid #115372;
+    border-radius: 10px;
+}
+section a{
+    text-decoration: none;
+    color: white;
+}
+.primeira:hover{
+    font-weight: bolder;
+    border-top: 7px solid #115372;
+    border-bottom: 7px solid #115372;
+}
+.temp p{
+    font-size: 1.5em;
+    margin: 0 4em 0 4em;
+}
+section{
+    color: white;
+}

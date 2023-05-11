@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>AVALIAÇÕES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Brawler&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Brawler&family=Fjalla+One&display=swap" rel="stylesheet">
+      <link href="css/inicial.css" rel="stylesheet"/>
+      <link href="css/avaliacoes.css" rel="stylesheet"/>
+      <script src="js/avaliacoes.js"> </script>
+      <script src="js/main.js"> </script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>
+          <a href="index.html"><img src="img/logo.png" width="400em"></a>
+        </h1>
+        <nav id="menu">
+          <ul>
+            <li><a href="temporadas.html">TEMPORADAS</a></li>
+            <li><a href="personagens.html">PERSONAGENS</a></li>
+            <li><a href="avaliacoes.html">AVALIAÇÕES</a></li>
+            <li id="x"><a href="javascript:fechar()">(X)</a></li>
+          </ul>
+        </nav>
+      </div>
+      <figure>
+        <img id="fundo" src="img/fundo.jpg"/>
+      </figure>
+     
+      <div id="sanduiche">
+        <figure id="img-menu"><a href="javascript:abrir()"> <img src="img/menu.png"/></a></figure>
+      </div>
+    </header>
+    <nav id="migalha">
+      <ol>
+        <li><a href="index.html"><img src="img/casa.png"> HOME</a></li>
+        <li><img src="img/arrow.png"></li>
+        <li><a href="avaliacoes.html"><b>Avaliações</b></a></li>
+      </ol>
+    </nav>
+     <div id="esmaecer"></div>
+    <main>
+      <h2>AVALIAÇÕES</h2>
+      <section>
+        <div class="primeira avaliacoes">
+            <div class="fe">
+                <figure class="foto">
+                    <img src="img/avaliacoes/avaliacao1.png">
+                </figure>
+                <div>
+                    <h4>Gata Linda</h4>
+                    <figure>
+                        <img src="img/avaliacoes/estrelas.png">
+                    </figure>
+                </div>
+            </div>
+            <p>Cara, muito boa sério, amei de verdade</p>
+        </div>
+        <div class="avaliacoes">
+            <div class="fe">
+                <figure class="foto">
+                    <img src="img/avaliacoes/avaliacao2.png">
+                </figure>
+                <div>
+                    <h4>Charlotte</h4>
+                    <figure>
+                        <img src="img/avaliacoes/estrelas2.png">
+                    </figure>
+                </div>
+            </div>
+            <p>Cara, assim, eu gostei bastante ta ligado, quem não gostar tem mal gosto</p>
+        </div>
+        <div class="avaliacoes">
+            <div class="fe">
+                <figure class="foto">
+                    <img src="img/avaliacoes/avaliacao3.png">
+                </figure>
+                <div>
+                    <h4>Gata Charlotte</h4>
+                    <figure>
+                        <img src="img/avaliacoes/estrelas.png">
+                    </figure>
+                </div>
+            </div>
+            <p>legal.</p>
+        </div> 
+            <h2>DEIXE SUA AVALIAÇÃO</h2>
+        <form> 
+          <fieldset>              
+            <div>       
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome"/>
+            </div>      
+             <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email"/>
+            </div>
+            <div class="avaes">
+                <label for="estrelinhas">Avaliação:</label>
+                <div id="estrelinhas">
+                    <a href="javascript:void(0)" onclick="Avaliar(1)">
+                        <img src="img/avaliacoes/star0.webp" id="s1"></a>
+                        
+                        <a href="javascript:void(0)" onclick="Avaliar(2)">
+                        <img src="img/avaliacoes/star0.webp" id="s2"></a>
+                        
+                        <a href="javascript:void(0)" onclick="Avaliar(3)">
+                        <img src="img/avaliacoes/star0.webp" id="s3"></a>
+                        
+                        <a href="javascript:void(0)" onclick="Avaliar(4)">
+                        <img src="img/avaliacoes/star0.webp" id="s4"></a>
+                        
+                        <a href="javascript:void(0)" onclick="Avaliar(5)">
+                        <img src="img/avaliacoes/star0.webp" id="s5"></a>
+                        <!-- <p id="rating">0</p> -->
+                </div>
+            </div>
+            <div>
+               <label for="mensagem">Comentário:</label>
+               <br>
+               <textarea id="mensagem"></textarea>
+            </div>
+            <div class="botao">
+                <input type="submit" value="Enviar"/>
+            </div>
+          </fieldset>
+      </form>  
+      </section> 
+    </main>
+        <footer>
+      <ol>
+        <li><img src="img/sbc.png" width="80em"></li> 
+        <li><img src="img/fox.png" width="80em"></li>
+      </ol>
+      <div>
+        <nav>
+          <ul>
+            <li><a href=""><img src="img/ig.png"/></a></li>
+            <li><a href=""><img src="img/face.png"/></a></li>
+            <li><a href=""><img src="img/twitter.png"/></a></li>
+          </ul>
+        </nav>
+        <p>© Desenvolvido por Iraikare Rodrigues e Iara Monyke</p>
+      </div>
+    </footer>
+  </body>
+</html>

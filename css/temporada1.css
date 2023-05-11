@@ -1,0 +1,80 @@
+.sinop{
+    color: white;
+    margin: 0 auto;
+    width: 1296px;
+}
+.sinop p{
+    font-size: 1.5em;
+}
+.sinop img{
+    border-bottom: 10px solid #FCDC3D;
+    border-top: 10px solid #FCDC3D;
+    width: 100%;
+    margin-top: 3em;
+}
+.episodio{
+    width: 1296px;
+    color: white;
+    position: absolute;
+    top: -70em;
+    visibility: hidden;
+}
+.cima h3{
+    font-size: 2.5em;
+    font-family: 'Brawler', serif;  
+    margin-bottom: 1.5em;
+}
+.episodio img{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border: 10px solid #115372;
+    border-radius: 10px;
+}
+.eps{
+    width: 1296px;
+    position: relative;
+    margin: 0 auto;
+}
+.episodio p{
+    font-size: 1.5em;
+}
+.dois{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 1.2em;
+}
+.dois h3{
+    font-size: 2em;
+}
+.dois div{
+    margin: 0 0 0 3em;
+}
+main nav ol{
+    margin: 0 auto;
+    width: 1296px;
+    list-style-type: none;
+    display: flex;
+    font-size: 2em; 
+    flex-wrap: wrap;
+}
+main nav{
+    margin: 8em 0 5em 0;
+    background-color: #115372;
+    padding: 0 0 5em 0;
+    height: 30em;
+    box-sizing: border-box;
+}
+main nav ol li{
+    margin: 0 1em 0 1em;
+}
+main nav ol li a{
+    color: white;
+    text-decoration: none;
+}
+main nav ol li a:hover{
+    color: #FCDC3D;
+    border-bottom: 2px solid #FCDC3D;
+}

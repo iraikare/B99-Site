@@ -1,0 +1,40 @@
+.first{
+    width: 80em;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+h3{
+    font-size: 2.5em;
+}
+.first img{
+    border-left: 10px solid #FCDC3D;
+    width: 50em;
+}
+.second img{
+    border-left: 10px solid #FCDC3D;
+    border-right: 10px solid #FCDC3D;
+    width: 18em;
+}
+.first p{
+    font-size: 1.9em;
+    line-height: 2em;
+}
+.second{
+    background-color: #115372;
+    margin: 5em 0 128px 0;
+    font-size: 1.5em;
+    color: white;
+}
+.perso2{
+   padding: 2em 0 2em 0;
+   margin: 0 auto;
+    display: flex;
+    width: 1296px;
+    align-items: center;
+}
+.second figure{
+    margin: 0 0 0 5em;
+}
